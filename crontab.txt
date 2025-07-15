@@ -1,0 +1,2 @@
+# Запуск sys_info.sh каждый день в 8 утра
+0 8 * * * /your/path/hello_devops/sys_info.sh
