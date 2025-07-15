@@ -1,0 +1,26 @@
+===== Системный отчёт =====
+Дата: Tue Jul 15 01:11:32 PM EEST 2025
+Имя хоста: elysium
+Аптайм:
+ 13:11:32 up  1:26,  1 user,  load average: 0.17, 0.43, 0.44
+
+Кто залогинен:
+kalyan   seat0        2025-07-15 11:45 (login screen)
+kalyan   tty2         2025-07-15 11:45 (tty2)
+
+Загрузка CPU и RAM:
+top - 13:11:32 up  1:26,  1 user,  load average: 0.17, 0.43, 0.44
+Tasks: 349 total,   1 running, 348 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.7 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15320.0 total,  10096.7 free,   3387.5 used,   2300.1 buff/cache     
+MiB Swap:  16384.0 total,  16384.0 free,      0.0 used.  11932.5 avail Mem 
+
+Свободное место на дисках:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.1M  1.5G   1% /run
+/dev/nvme0n1p2  468G  106G  339G  24% /
+tmpfs           7.5G  111M  7.4G   2% /dev/shm
+tmpfs           5.0M   16K  5.0M   1% /run/lock
+efivarfs        148K   76K   68K  53% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.5G  140K  1.5G   1% /run/user/1000
