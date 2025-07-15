@@ -27,6 +27,10 @@ bash scripts/archive_report.sh
 0 8 * * * /path/to/your/project/hello_devops/scripts/sys_info.sh
 1 8 * * * /path/to/your/project/hello_devops/scripts/archive_report.sh
 ```
+# Ежедневная очистка архивов старше 7 дней в 2:00 ночи
+```
+0 2 * * * /path/to/your/project/hello_devops/scripts/cleanup_old_archives.sh
+```
 
 Замените `/path/to/your/project` на свой актуальный путь.
 
