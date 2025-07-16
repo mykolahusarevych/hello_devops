@@ -3,3 +3,6 @@
 
 # Архивирование отчёта сразу после сбора, в 8:01
 1 8 * * * /path/to/your/project/hello_devops/scripts/archive_report.sh
+
+# Ежедневный бэкап проекта в 4:00 утра
+0 4 * * * /path/to/your/project/hello_devops/scripts/backup_folder.sh
